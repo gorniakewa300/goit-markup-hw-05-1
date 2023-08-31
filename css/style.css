@@ -12,6 +12,7 @@
   --ocean: #404bbf;
   --light-slate: rgba(142, 143, 153, 1);
   --green: #31d0aa;
+  --dairy: #fcfcfc;
 }
 
 body {
@@ -34,7 +35,7 @@ h4 {
 .container {
   max-width: 1158px;
   padding-left: 15px;
-  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 } /**/
 .bg-header {
@@ -66,13 +67,13 @@ h4 {
   align-items: center;
   height: 72px;
   background: var(--white);
-} /**/
+}
 .links {
   text-decoration: inherit;
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
   color: inherit;
@@ -113,15 +114,14 @@ h4 {
   max-width: 1440px;
   height: 600px;
   margin: 0 auto;
-} /**/
-.title {
+  padding: 188px 0;
+}
+/*.title {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
-} /**/
+}*/
 .title-1-studio {
   color: var(--white);
   font-family: "Roboto";
@@ -132,7 +132,8 @@ h4 {
   letter-spacing: 1.12px;
   text-align: center;
   max-width: 496px;
-} /**/
+  margin: 0 auto;
+}
 
 .btn-order {
   display: flex;
@@ -146,6 +147,7 @@ h4 {
   border-radius: 4px;
   background-color: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
   margin-top: 48px;
   padding: 16px 32px;
   border: none;
@@ -205,6 +207,7 @@ h4 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-top: 8px;
 } /**/
 .section-2,
 .section-3,
@@ -273,7 +276,8 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   row-gap: 24px;
-} /**/
+  cursor: pointer;
+}
 .customers-icon {
   fill: var(--light-slate);
   border: 1px solid var(--light-slate);
@@ -282,18 +286,6 @@ h4 {
   flex-shrink: 0;
 }
 .customers-icon:hover {
-  fill: var(--ocean);
-  border: 1px solid var(--iris);
-  cursor: pointer;
-}
-.customers-list-item {
-  display: block;
-  width: 168px;
-  height: 88px;
-}
-
-.customers-list-item:hover,
-.customers-list-item:focus {
   fill: var(--ocean);
   border: 1px solid var(--ocean);
 }
@@ -313,8 +305,14 @@ h4 {
   letter-spacing: 0.32px;
   padding-bottom: 16px;
 }
+.sm-footer-list svg {
+  gap: 16px;
+  width: 24px;
+  height: 24px;
+}
 .sm-footer-list {
   display: flex;
+  flex-direction: row;
   gap: 16px;
 }
 .sm-footer-list .circle:hover {
@@ -401,6 +399,7 @@ h4 {
   margin: 0;
   row-gap: 48px;
   margin-bottom: 120px;
+  cursor: pointer;
 } /**/
 .cards li:hover,
 .cards li:focus {
@@ -453,8 +452,8 @@ h4 {
 }
 .circle svg {
   fill: var(--cloud);
-  width: 16px;
-  height: 16px;
+  width: 24px;
+  height: 24px;
 }
 
 .sm-footer-wrapper {
