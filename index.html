@@ -28,7 +28,9 @@
         <nav>
           <menu class="nav-links">
             <li>
-              <a class="links link-html" href="index.html">Studio</a>
+              <a class="links link-html link-current" href="index.html"
+                >Studio</a
+              >
             </li>
             <li>
               <a class="links" href="portfolio.html">Portfolio</a>
@@ -54,7 +56,18 @@
       <section class="main-title-bg">
         <div class="container title">
           <h1 class="title-1-studio">Effective Solutions for Your Business</h1>
-          <button class="btn-order" type="button">Order Service</button>
+          <button class="btn-order" type="button" data-modal-open>
+            Order Service
+          </button>
+        </div>
+        <div class="modal is-hidden" data-modal>
+          <div class="modal-body">
+            <button type="button" class="modal-close-btn" data-modal-close="">
+              <svg class="close-icon" width="8" height="8">
+                <use href=".images/icons.svg#icon-close-btn"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </section>
       <div>
@@ -157,8 +170,8 @@
                   <p class="description">Product Designer</p>
                   <div>
                     <ul class="sm-list">
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-instagram-2"
@@ -166,15 +179,15 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-facebook-1"
@@ -182,8 +195,8 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-linkedin-1"
@@ -209,8 +222,8 @@
                   <p class="description">Frontend Developer</p>
                   <div>
                     <ul class="sm-list">
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-instagram-2"
@@ -218,15 +231,15 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#O">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-facebook-1"
@@ -234,8 +247,8 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-linkedin-1"
@@ -261,8 +274,8 @@
                   <p class="description">Marketing</p>
                   <div>
                     <ul class="sm-list">
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-instagram-2"
@@ -270,15 +283,15 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-facebook-1"
@@ -286,8 +299,8 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-linkedin-1"
@@ -313,8 +326,8 @@
                   <p class="description">UI Designer</p>
                   <div>
                     <ul class="sm-list">
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-instagram-2"
@@ -322,15 +335,15 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use href="./images/icons.svg#icon-twitter-1"></use>
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-facebook-1"
@@ -338,8 +351,8 @@
                           </svg>
                         </a>
                       </li>
-                      <li class="circle">
-                        <a href="#0">
+                      <li>
+                        <a href="#" class="circle">
                           <svg width="16" height="16">
                             <use
                               href="./images/icons.svg#icon-linkedin-1"
@@ -359,43 +372,43 @@
         <div class="container">
           <h2 class="titles">Customers</h2>
           <ul class="customers-list">
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="customers-list-item">
-              <a href="#0">
+            <li>
+              <a href="#" class="customers-list-item">
                 <svg class="customers-icon" width="168" height="88">
                   <use href="./images/icons.svg#icon-Client-6"></use>
                 </svg>
@@ -420,30 +433,30 @@
           <div class="sm-footer-wrapper">
             <h4 class="sm-footer-title">Social media</h4>
             <ul class="sm-footer-list">
-              <li class="circle">
-                <a href="#0">
+              <li>
+                <a href="#" class="circle">
                   <svg width="24" height="24">
                     <use href="./images/icons.svg#icon-instagram-2"></use>
                   </svg>
                 </a>
               </li>
-              <li class="circle">
-                <a href="#0">
+              <li>
+                <a href="#" class="circle">
                   <svg width="24" height="24">
                     <use href="./images/icons.svg#icon-twitter-1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="circle">
-                <a href="#0">
+              <li>
+                <a href="#" class="circle">
                   <svg width="24" height="24">
                     <use href="./images/icons.svg#icon-facebook-1"></use>
                   </svg>
                 </a>
               </li>
-              <li class="circle">
-                <a href="#0">
-                  <svg class="" width="24" height="24">
+              <li>
+                <a href="#" class="circle">
+                  <svg width="24" height="24">
                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                   </svg>
                 </a>
