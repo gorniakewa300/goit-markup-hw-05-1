@@ -301,6 +301,7 @@ h4 {
 .customers-icon:hover {
   fill: var(--ocean);
   border: 1px solid var(--ocean);
+  transition: var(--transition);
 }
 .sm-list {
   display: flex;
@@ -388,6 +389,7 @@ h4 {
   background-color: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
 
 .filter-buttons {
@@ -450,6 +452,7 @@ h4 {
 }
 .cards li:hover .overlay {
   transform: translateY(0);
+  transition: var(--transition);
 }
 .project {
   color: var(--brand-color);
@@ -483,6 +486,7 @@ h4 {
 .circle:hover,
 .circle:focus {
   background-color: var(--ocean);
+  transition: var(--transition);
 }
 .circle svg {
   fill: var(--cloud);
@@ -526,19 +530,19 @@ h4 {
   inset: 24px 24px auto auto;
   width: 24px;
   height: 24px;
-  border-radius: 50%;
-  background-color: var(--cornflover);
-  stroke-width: 1px;
-  stroke: rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 50%;
+  background-color: var(--cornflover);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   fill: var(--brand-color);
 }
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--ocean);
   fill: var(--white);
+  border: 1px solid var(--ocean);
   transition: var(--transition);
 }
 .close-icon {
